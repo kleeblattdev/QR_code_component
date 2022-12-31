@@ -39,7 +39,8 @@ main {
 .qr-section{
     background-color: hsl(0, 0%, 100%);
     margin: auto;
-    width: 40%;
+    width: 25%;
+    height: 80%;
     border-radius: 20px;
     padding-bottom: 10%;
 }
