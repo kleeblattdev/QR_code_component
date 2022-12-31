@@ -4,4 +4,72 @@
 - Grayish blue: hsl(220, 15%, 55%)
 - Dark blue: hsl(218, 44%, 22%) */
 
-/* Font-family */
+/* Font-family
+font-family: 'Outfit', sans-serif; */
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf);
+}
+
+/* GLOBAL STYLE */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+}
+
+/* MAIN STYLE */
+
+main {
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+}
+
+.qr-section{
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    width: 40%;
+    border-radius: 20px;
+    padding-bottom: 10%;
+}
+
+.qr-section img{
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    margin: auto;
+}
+
+.qr-section h1{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.qr-section p{
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+/* MOBILE DESIGN */
+
+@media only screen and (max-width:576px){
+
+    h1, p{
+        font-size: 1.5rem;
+    }
+    .qr-section{
+        width: 70%;
+    }
+
+}
